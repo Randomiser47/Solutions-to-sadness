@@ -1,0 +1,13 @@
+# Personal data: never commit webcam recordings or the feature logs derived from them
+lecture_data/
+my_lectures/
+lecture_*/
+*.mp4
+
+# MediaPipe model (downloaded automatically on first run)
+*.task
+*.task.part
+
+# Python
+__pycache__/
+.venv/
